@@ -1,4 +1,4 @@
-# nuxt-playground
+# OEB Visualizations Demo
 
 ## Build Setup
 
