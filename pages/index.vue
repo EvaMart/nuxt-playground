@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { accessibilityPlot } from 'oeb_visualizations'
+import { accessibilityPlot } from '@inb/oeb_visualizations'
 
 export default {
   name: 'IndexPage',
