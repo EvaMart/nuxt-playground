@@ -25,8 +25,9 @@
     <v-footer
       :absolute="!fixed"
       app
+      class="text-center"
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span> </span>
     </v-footer>
   </v-app>
 </template>
