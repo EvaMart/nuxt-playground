@@ -24,7 +24,7 @@
           <v-card-content>
             <accessibilityPlot />
             <p class="mt-4 text-body-2">
-              Built using <a href="https://plotly.com/javascript/" target="_black">plotly.js</a>
+              Data displayed is generated randomly for demonstration purposes. Built using <a href="https://plotly.com/javascript/" target="_black">plotly.js</a>
             </p>
         
           </v-card-content>
