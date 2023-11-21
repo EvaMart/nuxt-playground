@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-row justify="center" align="center">
       <v-col cols="12" sm="10" md="10">
-        <h1 class="mb-3">OEB charts demo</h1>
+        <h1 class="mb-3">OEB Charts Demo</h1>
         <v-alert
           dark
           dense

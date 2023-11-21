@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - nuxt-playground',
-    title: 'nuxt-playground',
+    titleTemplate: 'OEB Charts Demo',
+    title: 'OEB Charts Demo',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,7 +18,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image', href: '/oeb-minimal-logo-black.png' }
     ]
   },
 
