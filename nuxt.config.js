@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'OEB Charts Demo',
-    title: 'OEB Charts Demo',
+    titleTemplate: 'OEB Visualizations Demo',
+    title: 'OEB Visualizations Demo',
     htmlAttrs: {
       lang: 'en'
     },

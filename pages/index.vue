@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-row justify="center" align="center">
       <v-col cols="12" sm="10" md="10">
-        <h1 class="mb-3">OEB Charts Demo</h1>
+        <h1 class="mb-3">OEB Visualizations Demo</h1>
         <v-alert
           dark
           dense
@@ -10,7 +10,7 @@
           class="text-caption"
           >
 
-          👷🏻 OEB charts is in development. New components will be progressively added and all components are subjected to changes.
+          👷🏻 OEB Visualizations is in development. New components will be progressively added and all components are subjected to changes.
           </v-alert>
         
       </v-col>
