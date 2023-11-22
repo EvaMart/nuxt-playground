@@ -21,13 +21,9 @@
         <v-card class="pl-8 pr-8 pb-4 mt-4">
           <v-card-title>Uptime</v-card-title>
           <v-card-subtitle>Access time and status of a service accross time </v-card-subtitle>
-          <v-card-content>
-            <accessibilityPlot />
-            <p class="mt-4 text-body-2">
-              Data displayed is generated randomly for demonstration purposes. Built using <a href="https://plotly.com/javascript/" target="_black">plotly.js</a>
-            </p>
-        
-          </v-card-content>
+          
+            <accessibilityPlot :dataItems="data" />
+          
         </v-card>
       </v-col>
     </v-row>
@@ -37,11 +33,19 @@
 
 <script>
 import { accessibilityPlot } from '@inb/oeb_visualizations'
+//import { accessibilityPlot } from 'oeb_visualizations'
+import { data } from '../data/uptime30days.js'
+
 
 export default {
   name: 'IndexPage',
   components: {
     accessibilityPlot
+  },
+  data(){
+    return {
+      data: data
+    }
   }
 }
 </script>
