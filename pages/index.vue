@@ -19,7 +19,7 @@
       <v-col cols="12" sm="10" md="10">
         <h2>Components</h2>
         <v-card class="pl-8 pr-8 pb-4 mt-4">
-          <v-card-title>Uptime</v-card-title>
+          <v-card-title>accessibilityPlot</v-card-title>
           <v-card-subtitle>Access time and status of a service accross time </v-card-subtitle>
           
             <accessibilityPlot :dataItems="data" />
