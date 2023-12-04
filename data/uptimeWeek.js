@@ -30,8 +30,8 @@ const dataWeek = [
 	},
 	{
 		"date": "2022-10-28",
-		"code": null,
-		"access_time": null
+		"code": 200,
+		"access_time": 50
 	},
 	{
 		"date": "2022-10-29",

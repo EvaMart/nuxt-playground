@@ -6,12 +6,16 @@
             <br>
             <h5 class="ml-5 mb-4 text-subtitle">One week:</h5>
             <accessibilityPlot :dataItems="dataWeek" week />
+            <br>
+            <h5 class="ml-5 mb-4 text-subtitle">6 months:</h5>
+            <accessibilityPlot :dataItems="dataSixMonths" sixMonths />
     </div>
 </template>
 <script>
 import { accessibilityPlot } from '@inb/oeb_visualizations'
 import { data } from '../data/uptime30days.js'
 import { dataWeek } from '../data/uptimeWeek.js'
+import { dataSixMonths } from '../data/uptime6months.js'
 
 export default {
   name: 'accessibilityPlotPage',
@@ -22,6 +26,7 @@ export default {
     return {
       data: data,
       dataWeek: dataWeek,
+      dataSixMonths: dataSixMonths
     }
   }
 }
