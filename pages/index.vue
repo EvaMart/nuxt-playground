@@ -1,8 +1,20 @@
 <template>
   <v-container fluid>
     <v-row justify="center" align="center">
-      <v-col cols="12" sm="10" md="10">
-        <h1 class="mb-3">OEB Visualizations Demo</h1>
+      <v-col cols="12" sm="10" md="10" class="d-flex justify-space-between">
+        <h1>
+          OEB Visualizations Demo
+        </h1>
+        <a class="d-flex github" href="https://github.com/inab/oeb-visualizations/" target="_blank">
+          <v-icon class="align-self-center">
+           mdi-github
+        </v-icon>
+        </a>
+        
+
+        
+      </v-col>
+      <v-col cols="12" sm="10" md="10">  
         <v-alert
           dark
           dense
@@ -56,3 +68,12 @@ export default {
   }
 }
 </script>
+
+
+<style scoped>
+
+.github{
+  text-decoration: none;
+}
+
+</style>
