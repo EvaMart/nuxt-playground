@@ -34,7 +34,7 @@
       <v-col cols="12" sm="10" md="10">
         <v-card class="pl-8 pr-8 pb-4 mt-4">
           <v-card-title>Scatter Plot</v-card-title>
-          <accessibilityPlotPage />
+          <scatterPlotPage />
         </v-card>
       </v-col>
     </v-row>
