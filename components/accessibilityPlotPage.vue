@@ -22,7 +22,7 @@ export default {
     return {
       data: data,
       dataWeek: dataWeek,
-      width: window.width*0.8,
+      width: window.width*0.75,
     }
   },
 }
