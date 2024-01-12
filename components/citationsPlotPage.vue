@@ -21,15 +21,15 @@
         <v-tabs-items v-model="tabCitations">
         <v-tab-item>
             <v-card-subtitle>Number of citations per year</v-card-subtitle>
-            <citationsPlot :dataTraces="dataTraces" :showlegend="true" :colors="colors"/>
+            <citationsPlot :dataTraces="dataTraces" :showlegend="true" :colors="colors" :width="width"/>
         </v-tab-item>
         <v-tab-item>
             <v-card-subtitle>Number of citations per year (stack)</v-card-subtitle>
-            <citationsPlot :dataTraces="dataTraces" :showlegend="true" :colors="colors" :stack="true" />
+            <citationsPlot :dataTraces="dataTraces" :showlegend="true" :colors="colors" :stack="true" :width="width"/>
         </v-tab-item>
         <v-tab-item>
             <v-card-subtitle>Number of citations per year (stack)</v-card-subtitle>
-            <citationsPlot :dataTraces="dataTraces" :showlegend="true" :colors="colors" :stack="true" :darkMode="true" />
+            <citationsPlot :dataTraces="dataTraces" :showlegend="true" :colors="colors" :stack="true" :darkMode="true" :width="width" />
         </v-tab-item>
         </v-tabs-items>
     </div>
@@ -49,6 +49,7 @@ export default {
       dataTraces: [mockData1, mockData2, mockData3],
       colors: ['#004c6d','#6b93b1','#c3e1fa'],
       tabCitations: 0,
+      width: window.width*0.8,
     }
   }
 }
