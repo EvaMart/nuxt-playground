@@ -16,6 +16,7 @@
 import { accessibilityPlot } from '@inb/oeb_visualizations'
 import { data } from '../data/uptime30days.js'
 import { dataWeek } from '../data/uptimeWeek.js'
+import { dataSixMonths } from '../data/uptime6months.js'
 
 export default {
   name: 'accessibilityPlotPage',
@@ -26,6 +27,7 @@ export default {
     return {
       data: data,
       dataWeek: dataWeek,
+      dataSixMonths: dataSixMonths,
       width: window.width*0.75,
     }
   },
