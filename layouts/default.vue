@@ -5,6 +5,19 @@
         <h2>OEB Visualizations Demo</h2>
 
         <v-spacer></v-spacer>
+        <v-btn
+          icon
+          href="http://github.com/inab/oeb-visualizations-demo"
+          target="_blank"
+        >
+          <v-icon>mdi-github</v-icon>
+        </v-btn>
+
+        <v-divider
+          class="mx-4 ml-1"
+          inset
+          vertical
+        ></v-divider>
 
         <v-switch
           v-model="$vuetify.theme.dark"
