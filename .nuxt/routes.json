@@ -2,15 +2,13 @@
   {
     "name": "inspire",
     "path": "/inspire",
-    "component": "/Users/evabsc/projects/nuxt-playground/pages/inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_749dcfd5"
+    "component": "/Users/evabsc/projects/oeb-visualizations-demo/pages/inspire.vue",
+    "chunkName": "pages/inspire"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/evabsc/projects/nuxt-playground/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_8cad72e6"
+    "component": "/Users/evabsc/projects/oeb-visualizations-demo/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]

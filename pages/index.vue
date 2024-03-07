@@ -1,19 +1,6 @@
 <template>
   <v-container fluid>
     <v-row justify="center" align="center">
-      <v-col cols="12" sm="10" md="10" class="d-flex justify-space-between">
-        <h1>
-          OEB Visualizations Demo
-        </h1>
-        <a class="d-flex github" href="https://github.com/inab/oeb-visualizations/" target="_blank">
-          <v-icon class="align-self-center">
-           mdi-github
-        </v-icon>
-        </a>
-        
-
-        
-      </v-col>
       <v-col cols="12" sm="10" md="10">  
         <v-alert
           :dark="$vuetify.theme.dark"
@@ -31,13 +18,13 @@
     <v-row justify="center" align="center">
       <v-col cols="12" sm="10" md="10">
         <v-card class="pl-8 pr-8 pb-4 mt-4">
-          <v-card-title>accessibilityPlot</v-card-title>
+          <v-card-title><a href="https://inab.github.io/oeb-visualizations/components/accessibilityPlot/" target="_blank">accessibilityPlot</a></v-card-title>
           <accessibilityPlotPage />
         </v-card>
       </v-col>
       <v-col cols="12" sm="10" md="10">
         <v-card class="pl-8 pr-8 pb-4 mt-4">
-        <v-card-title>citationsPlot</v-card-title>
+        <v-card-title><a href="https://inab.github.io/oeb-visualizations/components/citationsPlot/" target="_blank">citationsPlot</a></v-card-title>
           <citationsPlotPage />
         </v-card>
       </v-col>
