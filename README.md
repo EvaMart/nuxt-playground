@@ -18,9 +18,9 @@ Detailed technical documentation for each component is readily accessible from t
 
 To run the demo site locally:
 
-- Clone the repository: git clone https://github.com/inab/oeb-visualizations-demo  
-- Install dependencies: npm install
-- Serve the site locally: npm run dev
+- Clone the repository: `git clone https://github.com/inab/oeb-visualizations-demo`  
+- Install dependencies: `npm install`
+- Serve the site locally: `npm run dev`
 - Navigate to http://localhost:3000 to view the demo site.
 
 ## Deployment
