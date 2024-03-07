@@ -27,6 +27,10 @@ To run the demo site locally:
 
 The demo page is automatically deployed to GitHub Pages when changes are merged into the `main` branch. The deployment is handled by GitHub Actions, which runs the `deploy.yml` workflow to build and deploy the site.
 
+## Contributing
+
+If you would like to add a new component or make any other modifications, please follow the guidelines in the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+
 ## Getting Feedback or Help 
 
 If you need help or want to discuss something, you can open an [issue](https://github.com/inab/oeb-visualizations-demo/issues/new) in this repository.
