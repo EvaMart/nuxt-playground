@@ -1,6 +1,6 @@
 # OEB Visualizations Demo
 
-Welcome to the official demonstration site for our Vue-based Web Components Library! This site serves as a showcase for our collection of high-quality, reusable web components designed to accelerate and enhance the web development of the OpenEBnch site. Each component is built with Vue, ensuring seamless integration and dynamic interactivity.
+Welcome to the official demonstration site for our Vue-based Web Components Library! This site serves as a showcase for our collection of high-quality, reusable web components designed to accelerate and enhance the web development of the [OpenEBnch](https://openebench.bsc.es) site. Each component is built with Vue, ensuring seamless integration and dynamic interactivity.
 Features
 
 Our library offers a wide range of features designed to meet modern web development needs:
