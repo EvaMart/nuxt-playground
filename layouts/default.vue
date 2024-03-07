@@ -33,12 +33,16 @@
         <Nuxt />
     </v-main>
     <v-footer
-      :absolute="!fixed"
-      app
-      class="text-center"
+      fixed
+      padless
     >
-      <span> </span>
-    </v-footer>
+      <v-col
+        class="text-center text-body-2"
+        cols="12"
+      >
+        Done with ❤️ by <a href="https://openebench.bsc.es" target="_blank">OpenEBench</a>
+      </v-col>
+  </v-footer>
   </v-app>
 </template>
 
