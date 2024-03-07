@@ -37,7 +37,7 @@
       padless
     >
       <v-col
-        class="text-center text-body-2"
+        class="text-center text-caption"
         cols="12"
       >
         Done with ❤️ by <a href="https://openebench.bsc.es" target="_blank">OpenEBench</a>
