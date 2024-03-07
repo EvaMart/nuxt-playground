@@ -2,9 +2,10 @@
 
 ## 🧩 New components 
 
-**Target audience**: developers who want to add a new component to the library, usually after creating a new component in `oeb-visualizations`.
+**Target audience**  
+Developers who want to add a new component to the library, usually after creating a new component in `oeb-visualizations`.
 
-**How to add a new component to the site**:
+**How to add a new component to the site**  
 The different components are showcased in the main page (`pages/index.vue`), in separate cards. To add a new card for a new library component, you need to:
 - Create a branch from `main` with the name of the new component.
 - Create the main content of the new card as a separate component in the `components` folder (let's call this the "content component"). You put there whatever you consider necessary to showcase the new library component.
@@ -16,9 +17,10 @@ The different components are showcased in the main page (`pages/index.vue`), in 
 - Create a pull request to merge the new branch into `main`.
 
 ## ✏️ Other modifications
-**Target audience**: developers who want to make any other modification to the site. Inclludes documentation, styles, layout, etc. 
+**Target audience**  
+Developers who want to make any other modification to the site. Inclludes documentation, styles, layout, etc. 
 
-**How to make any other modification**:
+**How to make any other modification**  
 - Create a branch from `main` with the name of the modification.
 - Make the changes you consider necessary.
 - Create a pull request to merge the new branch into `main`. 
