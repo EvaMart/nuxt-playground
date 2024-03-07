@@ -16,11 +16,24 @@
         </v-col>
     </v-row>
     <v-row justify="center" align="center">
+        <v-col cols="10" sm="10" md="10">
+            <ul>
+                <li v-for="component in components" :key="component.id">
+                <a href="#" @click.prevent="scrollToCard(component.id)">
+                    {{ component.title }}
+                </a>
+                </li>
+            </ul>
+        </v-col>
+
+    </v-row>
+    <v-row justify="center" align="center">
         <componentCard
             v-for="component in components"
             :componentToDisplay="component.component" 
             :title="component.title"
             :documentationLink="component.documentationLink"
+            :id="component.id"
             />
     </v-row>
     
@@ -45,18 +58,28 @@ export default {
     return {
       components: [
         {
-          title: 'Accessibility Plot',
-          component: accessibilityPlotPage,
-          documentationLink: 'https://inab.github.io/oeb-visualizations/components/accessibilityPlot/'
+            title: 'Accessibility Plot',
+            id: 'accessibilityPlot',
+            component: accessibilityPlotPage,
+            documentationLink: 'https://inab.github.io/oeb-visualizations/components/accessibilityPlot/'
         },
         {
-          title: 'Citations Plot',
-          component: citationsPlotPage,
-          documentationLink: 'https://inab.github.io/oeb-visualizations/components/citationsPlot/'
+            title: 'Citations Plot',
+            id: 'citationsPlot',
+            component: citationsPlotPage,
+            documentationLink: 'https://inab.github.io/oeb-visualizations/components/citationsPlot/'
         }
       ],
     }
-  }
+  },
+  methods: {
+    scrollToCard(cardId) {
+        const cardElement = document.getElementById(cardId);
+        if (cardElement) {
+            cardElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+}
 }
 </script>
 

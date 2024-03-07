@@ -12,6 +12,7 @@ The different components are showcased in the main page (`pages/index.vue`), in 
 - Import the "content component" in the `index.vue` file.
 - Add the details of the new card in the `components` array in the `index.vue` file. The details are:
     - `title`: title of the card (usually the name of the component or a variation of it).
+    - `id`: id of the card (usually the name of the component in lowercase and without spaces).
     - `component`: the "content component" you imported.
     - `documentationLink` (optional): link to the documentation of the component.
 - Create a pull request to merge the new branch into `main`.
