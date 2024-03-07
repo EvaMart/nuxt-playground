@@ -19,5 +19,5 @@ The different components are showcased in the main page (`pages/index.vue`), in 
 
 ## 🚀 Deployment
 
-Your changes will be add to the demo site once the pull request is merged.
+Your changes will be add to the demo site automatically once the pull request is merged (may take a few minutes).
 
