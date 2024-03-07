@@ -3,6 +3,7 @@ export { default as Tutorial } from '../../components/Tutorial.vue'
 export { default as VuetifyLogo } from '../../components/VuetifyLogo.vue'
 export { default as AccessibilityPlotPage } from '../../components/accessibilityPlotPage.vue'
 export { default as CitationsPlotPage } from '../../components/citationsPlotPage.vue'
+export { default as ComponentCard } from '../../components/componentCard.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

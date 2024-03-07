@@ -1,69 +1,32 @@
 # OEB Visualizations Demo
 
-## Build Setup
+Welcome to the official demonstration site for our Vue-based Web Components Library! This site serves as a showcase for our collection of high-quality, reusable web components designed to accelerate and enhance the web development of the OpenEBnch site. Each component is built with Vue, ensuring seamless integration and dynamic interactivity.
+Features
 
-```bash
-# install dependencies
-$ npm install
+Our library offers a wide range of features designed to meet modern web development needs:
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+- **Responsive Design**: Ensures your applications look great on any device.
+- **Accessibility**: Components are built with accessibility in mind, promoting inclusivity.
+- **Customization**: Easily themed and customized to fit your requirements.
 
 
-### `pages`
+## Technical Documentation
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+Detailed technical documentation for each component is readily accessible from the demo site, offering in-depth explanations, API details, and usage guidelines. Visit our [documentation section](https://inab.github.io/oeb-visualizations/) for more information.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+## Installation and Usage
 
-### `plugins`
+To run the demo site locally:
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+- Clone the repository: git clone https://github.com/inab/oeb-visualizations-demo  
+- Install dependencies: npm install
+- Serve the site locally: npm run dev
+- Navigate to http://localhost:3000 to view the demo site.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+## Deployment
 
-### `static`
+The demo page is automatically deployed to GitHub Pages when changes are merged into the `main` branch. The deployment is handled by GitHub Actions, which runs the `deploy.yml` workflow to build and deploy the site.
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+## Getting Feedback or Help 
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+If you need help or want to discuss something, you can open an [issue](https://github.com/inab/oeb-visualizations-demo/issues/new) in this repository.

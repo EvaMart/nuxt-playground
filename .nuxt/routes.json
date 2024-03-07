@@ -3,12 +3,14 @@
     "name": "inspire",
     "path": "/inspire",
     "component": "/Users/evabsc/projects/oeb-visualizations-demo/pages/inspire.vue",
-    "chunkName": "pages/inspire"
+    "chunkName": "pages/inspire",
+    "_name": "_0cc3e920"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/evabsc/projects/oeb-visualizations-demo/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_1d29ace8"
   }
 ]

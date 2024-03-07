@@ -11,3 +11,4 @@ You can directly use them in pages and other components without the need to impo
 - `<VuetifyLogo>` | `<vuetify-logo>` (components/VuetifyLogo.vue)
 - `<AccessibilityPlotPage>` | `<accessibility-plot-page>` (components/accessibilityPlotPage.vue)
 - `<CitationsPlotPage>` | `<citations-plot-page>` (components/citationsPlotPage.vue)
+- `<ComponentCard>` | `<component-card>` (components/componentCard.vue)

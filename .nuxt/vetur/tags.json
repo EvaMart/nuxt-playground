@@ -13,5 +13,8 @@
   },
   "CitationsPlotPage": {
     "description": "Auto imported from components/citationsPlotPage.vue"
+  },
+  "ComponentCard": {
+    "description": "Auto imported from components/componentCard.vue"
   }
 }
